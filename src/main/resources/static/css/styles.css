@@ -1,0 +1,76 @@
+/*body {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    min-height: 100vh;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+h1 {
+    margin-top: 20px;
+    color: #962E2A;
+    font-size: 22px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #E3867D;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: #E3867D;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+}
+
+.css-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin: auto;
+    padding: 40px;
+}
+
+form h1, form label, form input, form button {
+    display: block;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+.grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.grasp-patterns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*.grasp-patterns h1 {*/
+/*    color: #0C2D48;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.grasp-patterns h2 {*/
+/*    color: #2E8BC0;*/
+/*    font-size: 18px;*/
+/*}*/
+/*.pattern {*/
+/*    color: #B1D4E0;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 10px;*/
+/*}*/
