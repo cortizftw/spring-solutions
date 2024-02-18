@@ -108,22 +108,23 @@ public class Assignment2Controller {
     @PostMapping("/grasp")
     public String grasp() {
         // Information Expert
-        String ieInfo = "The Information Expert principle focuses on assigning responsibilities to classes that possess the most information required to fulfill them. A class should be responsible for a particular task if it has the necessary information to perform that task effectively.";
+        String ieInfo = "The Information Expert design pattern suggests assigning responsibilities to the class that has the most information required to fulfill them. In this context, it's used to ensure that each class encapsulates the data and behavior relevant to it, promoting high cohesion and reducing coupling within the system, ultimately leading to more maintainable and flexible code.";
 
         // Creator
-        String creatorInfo = "The Creator principle guides the allocation of responsibility for creating objects. According to this principle, a class should be responsible for creating objects of other classes if the first class aggregates, contains, or has a composition relationship with the second class.";
+        String creatorInfo = "The Creator design pattern delegates the responsibility of creating instances of classes to specialized factory classes or methods. This approach is preferred over creating objects directly in the main method because it centralizes object creation logic, promotes encapsulation, and enhances code maintainability by abstracting the creation process, allowing for easier modification and extension in the future.";
 
         // Polymorphism
-        String polymorphismInfo = "Polymorphism is a fundamental principle in object-oriented design that enables objects of different classes to be treated uniformly through a common interface. By leveraging polymorphism, we can design systems that are extensible and adaptable to new requirements.";
+        String polymorphismInfo = "In object-oriented programming, polymorphism allows objects of different classes to be treated as objects of a common superclass. This principle is used to achieve flexibility and extensibility in the system by allowing different classes to be used interchangeably, promoting code reuse and reducing the need for conditional statements and type checking. Polymorphism is achieved through method overriding and method overloading in Java.";
 
         // Indirection
-        String indirectionInfo = "The Indirection principle suggests using an intermediate class to mediate between different classes, reducing the coupling between them. This principle helps in achieving a system design that is easier to maintain and modify";
+        String indirectionInfo = " The object intermediates between two other objects by acting as a mediator or controller, facilitating communication and interaction between them without them having direct knowledge of each other. This pattern decouples the objects, promoting modularity, reusability, and flexibility in the system.";
 
         // Pure Fabrication
-        String pureFabricationInfo = "The Pure Fabrication principle suggests creating a class that does not represent a concept in the problem domain but helps in achieving low coupling and high cohesion. This class is fabricated to ensure that each class adheres to the single responsibility principle and that the system as a whole remains loosely coupled.";
+        String pureFabricationInfo = "In the context of design patterns, a Pure Fabrication is an artificial class introduced solely to achieve a higher degree of cohesion and encapsulation. This fabricated object typically encapsulates behaviors or responsibilities that do not naturally belong to any existing domain entity.";
 
         return "<div class='grasp-patterns'>" +
                 "<h1>GRASP Patterns:</h1>" +
+                "<h3>GRASP (General Responsibility Assignment Software Patterns) is a set of principles used in object-oriented design to assign responsibilities to classes and objects effectively. These patterns help developers design software systems that are flexible, maintainable, and scalable by defining clear guidelines for class and object interactions.</h3>" +
                 "<h2>Information Expert</h2>" +
                 "<p class='pattern'>" + ieInfo + "</p>" +
                 "<h2>Creator</h2>" +
