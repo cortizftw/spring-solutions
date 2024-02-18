@@ -8,25 +8,20 @@
 /*}*/
 h1 {
     margin-top: 20px;
-    color: #962E2A;
+    color: #67595E;
     font-size: 22px;
     font-family: Inter, sans-serif;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 h2 {
-    color: #E3867D;
+    color: #A49393;
     font-size: 18px;
     font-family: Inter, sans-serif;
     text-align: center;
 }
 
-h3 {
-    color: #E3867D;
-    font-size: 16px;
-    font-family: Inter, sans-serif;
-    text-align: center;
-}
 
 .css-grid {
     display: grid;
@@ -34,13 +29,37 @@ h3 {
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
     margin: auto;
-    padding: 40px;
+    padding: 20px 40px 40px 40px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #67595E;
+    padding: 20px;
+    background-color: #EED6D3;
+}
 form h1, form label, form input, form button {
     display: block;
     margin-bottom: 10px;
-    align-items: center;
+}
+
+form h1 {
+    color: #67595E;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+form h2 {
+    color: #A49393;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .grid-container {
@@ -59,18 +78,19 @@ form h1, form label, form input, form button {
     gap: 10px;
 }
 
-/*.grasp-patterns h1 {*/
-/*    color: #0C2D48;*/
-/*    font-size: 20px;*/
-/*}*/
+form label {
+    color: #67595E;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    margin-bottom: 5px;
+}
 
-/*.grasp-patterns h2 {*/
-/*    color: #2E8BC0;*/
-/*    font-size: 18px;*/
-/*}*/
-/*.pattern {*/
-/*    color: #B1D4E0;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    gap: 10px;*/
-/*}*/
+form button {
+    padding: 10px;
+    background-color: #E8B4B8;
+    color: #67595E;
+    border: 0.5px solid #67595E;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
