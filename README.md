@@ -1,6 +1,6 @@
 ## Practice Algorithmic Problem-Solving Deployed on a Spring Solution
 
-### The exercise consists of several tasks covering various aspects of algorithmic problem-solving and Spring application deployment. Each task focuses on specific skills and concepts:
+#### The exercise consists of several tasks covering various aspects of algorithmic problem-solving and Spring application deployment. Each task focuses on specific skills and concepts:
 
 ######
 * Implementing algorithms in Java.
