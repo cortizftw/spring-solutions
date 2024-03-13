@@ -7,3 +7,6 @@
 * Utilizing Spring framework for web service development.
 * Implementing HTTP endpoints to interact with the developed services.
 * Demonstrating understanding and application of GRASP design patterns.
+
+  
+![image](https://github.com/cortizftw/spring-solutions/assets/32605654/93d7d28d-343f-42db-9cf7-600c0326009e)
