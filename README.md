@@ -11,7 +11,7 @@
   
 ![image](https://github.com/cortizftw/spring-solutions/assets/32605654/93d7d28d-343f-42db-9cf7-600c0326009e)
 
-###3 Palindrome Checker
+### Palindrome Checker
 
 ![image](https://github.com/cortizftw/spring-solutions/assets/32605654/12d0f40d-daad-4f78-84da-00bdde6f0d1f)
 
